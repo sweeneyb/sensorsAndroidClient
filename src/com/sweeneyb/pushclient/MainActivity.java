@@ -54,7 +54,7 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		Resources res = getResources();
-		regid = res.getString(R.string.sender_id);
+		SENDER_ID = res.getString(R.string.sender_id);
 		setContentView(R.layout.activity_main);
 		if (savedInstanceState == null) {
 			getFragmentManager().beginTransaction()
