@@ -1,0 +1,7 @@
+res/values/keys.xml
+bin
+gen
+.classpath
+.project
+.settings
+libs
